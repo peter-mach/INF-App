@@ -1,0 +1,10 @@
+@import '../../node_modules/normalize.css/normalize.css';
+
+@import 'variables';
+@import 'base';
+
+/* component styles */
+@import '../components/header/header.scss';
+@import '../components/taxes/taxes.scss';
+@import '../components/recentCalculations/recentCalculations.scss';
+@import '../components/footer/footer.scss';

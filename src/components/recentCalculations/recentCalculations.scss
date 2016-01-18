@@ -1,0 +1,64 @@
+$list-width: 500px;;
+
+.recentCalculations {
+  background: $gray-super-light;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  position: relative;
+  overflow-y: scroll;
+  height: calc(100% - 265px);
+
+  hr {
+    border: none;
+    height: 1px;
+    background: $gray-super-light;
+    margin: 2px auto;
+  }
+
+  .newCalculationWrapper {
+    width: $list-width;
+    margin: 0 auto;
+    background: $gray-dark;
+    border-bottom: 1px solid $gray-super-light;
+  }
+
+  .searchWrapper {
+    width: $list-width;
+    background: $gray-dark;
+    height: 50px;
+    margin: 0 auto;
+
+    input {
+      width: 460px;
+      padding: 5px;
+      font-size: 18px;
+      border: none;
+      text-align: center;
+      margin-top: 10px;
+      background: $gray-light;
+
+      &:focus {
+        outline: none;
+        background: darken($header-gradient-top, 25%) ;
+      }
+    }
+  }
+
+  ul {
+    background: $gray-light;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: $list-width;
+
+    li {
+      border-top: 1px solid $gray-super-light;
+      border-bottom: 1px solid $gray-super-light;
+      height: 50px;
+      width: 100%;
+    }
+  }
+}
+
+@import 'calculation/calculation';

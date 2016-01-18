@@ -1,0 +1,6 @@
+{
+  "name": "Calculation",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Calculation.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Taxes",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Taxes.js"
+}

@@ -1,0 +1,44 @@
+.taxes {
+  background: #17112b;
+  height: 50px;
+
+  .wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .separator {
+    width: 0px;
+    height: 100%;
+    border-right: 1px solid #232939;
+    display: inline-block;
+  }
+
+    .tax {
+        width: 49%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+
+        .name {
+            color: $brown-super-light;
+            font-weight: 100;
+            margin-left: 4px;
+        }
+
+        .inputPrice {
+            font-weight: 200;
+            width: 30%;
+            text-align: right;
+            border: none;
+            background: transparent;
+            font-size: 2em;
+            line-height: 1em;
+            color: #fff;
+
+            &:focus {
+              outline: none
+            }
+        }
+    }
+}

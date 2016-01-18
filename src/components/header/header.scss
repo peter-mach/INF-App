@@ -1,0 +1,46 @@
+
+header {
+  background-color: $header-gradient-top;
+  background-image: linear-gradient(to bottom, $header-gradient-top 0%, $header-gradient-bottom 100%);
+  background-repeat: repeat-x;
+
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+
+  .equals,
+  .resultPrice {
+    width: 7%;
+    margin: 0;
+    font-weight: 200;
+    font-size: 4em;
+    line-height: 1em;
+    display: inline-block;
+  }
+  .resultPrice {
+    width: 40%;
+    text-align: left;
+    font-weight: 100;
+  }
+
+  .inputPrice {
+    font-weight: 100;
+    width: 40%;
+    text-align: right;
+    border: none;
+    background: transparent;
+    font-size: 4em;
+
+    &:focus {
+      outline: none
+    }
+  }
+
+  .description {
+    padding: 0;
+    color: rgba(255, 255, 255, .5);
+    font-size: 1.25em;
+    margin: 10px 0 0 0;
+    font-weight: 100;
+  }
+}

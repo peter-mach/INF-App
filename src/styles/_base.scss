@@ -1,0 +1,16 @@
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  font-family: 'Helvetica neue', Helvetica,Arial,sans-serif;
+  background: #2f3447;
+  overflow: hidden;
+}
+
+input::selection {
+    background: #a458ec;
+}

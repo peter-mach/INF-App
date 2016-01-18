@@ -1,0 +1,25 @@
+.footer {
+  background: #17112d;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px 15px;
+  width: 100%;
+
+  .container {
+    margin: 0 auto;
+    text-align: center;
+
+    .text {
+      color: rgba(255, 255, 255, .5);
+      padding: 2px 5px;
+      font-size: 1em;
+      font-weight: 100;
+    }
+
+    .spacer {
+      color: rgba(255, 255, 255, .3);
+    }
+  }
+}

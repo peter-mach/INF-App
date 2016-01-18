@@ -1,0 +1,6 @@
+{
+  "name": "RecentCalculations",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RecentCalculations.js"
+}
